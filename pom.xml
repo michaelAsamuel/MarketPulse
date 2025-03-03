@@ -25,7 +25,8 @@
 		<module>trade</module>
 		<module>investor</module>
 		<module>eureka-server</module>
-	</modules>
+        <module>api-gateway</module>
+    </modules>
 	<scm>
 		<connection/>
 		<developerConnection/>
@@ -48,10 +49,7 @@
 <!--			<artifactId>spring-boot-starter-security</artifactId>-->
 <!--		</dependency>-->
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
+
 <!--		<dependency>-->
 <!--			<groupId>org.springframework.boot</groupId>-->
 <!--			<artifactId>spring-boot-starter-webflux</artifactId>-->
